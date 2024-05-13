@@ -1,0 +1,156 @@
+
+body {
+  
+    font-family: 'Cormorant Garamond', serif; /* A romantic cursive font */
+    text-align: center;
+    background-color: #f5dada;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  h1 {
+    font-family: 'Parisienne', cursive; /* Another elegant cursive font */
+    margin-top: 30px; /* Adjust the margin at the top of the h1 element */
+    display: flex;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  p {
+    
+    font-weight: bold;
+    font-size: 15px;
+
+  }
+  .cursive-paragraph {
+  font-weight: bold;
+  font-size: 28px;
+  border-top: 2px solid #000000; /* Add a light gray border */
+border-bottom: 2px solid #000; 
+
+}
+  /* Enhance button style */
+  button {
+    padding: 12px 24px;
+    font-size: 30px;
+    background-color: #ff6992;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    margin-top: 10px; /* Adjust the margin at the top of the button */
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif; /* A romantic cursive font */
+
+  }
+  
+  button:hover {
+    background-color: #e55b7f;
+    transform: scale(1.05);
+  }
+  
+  /* ... (remaining styles) ... */
+  
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Adjust the container height */
+    margin-top: 10px; /* Adjust the margin at the top of the container */
+    
+  }
+
+  .seo-paragraph {
+    margin-top: 50px;
+    border-top: 3px solid #000000; /* Add a light gray border */
+    padding-top: 10px;
+  }
+  
+  .box {
+    width: 150px;
+    height: 150px;
+    border: none; /* Remove borders */
+    border-radius: 50%; /* Make the boxes circular */
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px; /* Larger font size */
+    font-weight: bold;
+    background-color: #ff8ac2; /* Romantic pinkish background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: background-color 0.3s ease-in-out;
+    margin: 0 10px; /* Adjust the margin between the boxes */
+    font-family: 'Cormorant Garamond', serif; 
+  }
+  
+  #box1 {
+    background-color: #ffb5d1; /* Slightly lighter pink */
+    font-family: 'Cormorant Garamond', serif; 
+
+  }
+  
+  #box2 {
+    background-color: #ff99ba; /* Slightly darker pink */
+    font-family: 'Cormorant Garamond', serif; 
+
+  }
+  
+  .plus {
+    font-size: 36px;
+    margin: 0 20px;
+    color: #333;
+    margin: 0 10px; /* Adjust the margin between the plus sign and boxes */
+
+  }
+/* ... (existing styles) ... */
+
+/* Style the navigation bar */
+nav {
+  
+  background-color: #ff6992;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+border-top: 2px solid #000000; /* Add a light gray border */
+border-bottom: 2px solid #000; 
+
+}
+
+nav h1 {
+  
+  margin: 0;
+  font-family: 'Parisienne', cursive;
+  font-size: 24px;
+  text-align: center; /* Center-align the h1 element */
+  flex-grow: 1; /* Allow the h1 to take available space */
+  
+  
+
+}
+
+
+/* ... (remaining styles) ... */
+
+
+footer {
+  border-top: 3px solid #000000; /* Add a light gray border */
+  text-align: center;
+  background-color: #ff6992;
+  color: #000000;
+  padding: 10px 0;
+  border-top: 2px solid #000000; /* Add a light gray border */
+  border-bottom: 2px solid #000; 
+}
+
+footer p {
+  margin: 0;
+}
